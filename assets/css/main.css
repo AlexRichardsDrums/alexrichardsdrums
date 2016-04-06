@@ -35,6 +35,10 @@ a:hover {
   color: #EE6650;
 }
 
+.accent {
+  color: #8DDDA5;
+}
+
 p {
   margin: auto auto 1.5em;
 }
