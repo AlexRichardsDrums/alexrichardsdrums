@@ -52,6 +52,17 @@ textarea {
   overflow-x: none;
 }
 
+input[type="submit"]:hover {
+  background: #EE6751;
+  color: #fff;
+}
+input[type="submit"] {
+  border: solid 2px #EE6751;
+  background: rgba(255,255,255, 1);
+  color: #EE6751;
+  width: 100%;
+}
+
 /*** Navigation ***/
 .navbar>.container-fluid .navbar-brand {
     margin-left: 15px;
