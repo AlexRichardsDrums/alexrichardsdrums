@@ -180,7 +180,11 @@
             if (Modernizr.touch) {
                 BV.show('assets/img/bg.jpg');
             } else {
-                BV.show('assets/video/london.mp4',{ambient:true});
+                BV.show([
+                  { type: "video/mp4",  src: "assets/video/d92e5611b309a9d47b5e308b758fa6d4.mp4" },
+                  { type: "video/webm", src: "assets/video/15b2a099fa9f48f3ef693f107a620c64.webm" },
+                  { type: "video/ogg",  src: "assets/video/cf4f233c15733ba9f463ad06825f867d.ogv"}],
+                  {ambient:true});
             }
         });
         </script>
